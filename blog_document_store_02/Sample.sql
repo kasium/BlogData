@@ -2,7 +2,7 @@
 	This file contains all sample queries from the blog and some additional ones.
 	
 	Author: Kai Mueller
-	Supported SAP HANA Versions: SAP HANA 2.0 SPS2 and SPS3
+	Supported SAP HANA Versions: SAP HANA 2.0 SPS3
 */
 
 -- TABLE: get all customers which bought 'Product 1' and the price they payed
