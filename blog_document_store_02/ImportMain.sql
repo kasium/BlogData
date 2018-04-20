@@ -3,7 +3,7 @@
 	Please execute the blocks one by one. Block staring with ACTION requires additional actions from user side.
 	
 	Author: Kai Mueller
-	Supported SAP HANA Versions: SAP HANA 2.0 SPS2 and SPS3
+	Supported SAP HANA Versions: SAP HANA 2.0 SPS3
 */
 
 -- Create schema
