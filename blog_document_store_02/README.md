@@ -14,4 +14,4 @@ This repostitory contains the model, sample data and the used example queries us
 For downloading please use the zip download functionality of GitHub
 
 ## Preconditions
-Please note that at least HANA 2.0 SPS03 is needed additional to an enabled Document Store
+Please note that at least HANA 2.0 SPS02 is needed additional to an enabled Document Store
