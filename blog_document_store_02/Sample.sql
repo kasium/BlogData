@@ -41,5 +41,5 @@ SELECT {"productID": "id", "articleName": "name", "articlePrice": "price", "arti
 -- COLLECTION: add a new field "authorDetails" to all documents with the auhor "Ollie Nesey"
 UPDATE WEBSHOP."ProductCollection" SET "authorDetails" = 'This author is special' WHERE "author" = 'Ollie Nesey';
 
--- COLLECTION: remove the field "albumname" from all documents
-UPDATE WEBSHOP."ProductCollection" UNSET "albumname";
+-- COLLECTION: remove the field "authorDetails" from all documents
+UPDATE WEBSHOP."ProductCollection" UNSET "authorDetails";
