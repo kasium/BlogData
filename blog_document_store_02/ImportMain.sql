@@ -1,13 +1,10 @@
 /*
 	CAUTION: A schema with the name "WEBSHOP" is used for all operations. Please make sure that no schema with this name exists on your system!
-	Please execute the blocks one by one. Block staring with ACTION requires additional actions from user side.
-	
-	Author: Kai Mueller
+	Please execute the blocks one by one. Block staring with ACTION requires additional actions from user side.	
 */
 
 -- Create schema
 CREATE SCHEMA WEBSHOP;
-SET SCHEMA WEBSHOP;
 
 -- Create tables
 CREATE COLUMN TABLE WEBSHOP."Product" (
