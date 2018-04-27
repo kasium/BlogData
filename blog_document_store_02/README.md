@@ -1,7 +1,7 @@
 # Example Use-Case for the Document Store
 
 ## Content of this repository
-This repostitory contains the model, sample data and the used example queries used in this blog.
+This repostitory contains the model, sample data and the used example queries used in [this](https://blogs.sap.com/2018/04/27/the-sap-hana-json-document-store-use-case-part-2/) blog.
 
 | Filename       | Description                                                       |
 | -------------- | ----------------------------------------------------------------- |
@@ -11,7 +11,7 @@ This repostitory contains the model, sample data and the used example queries us
 | Sample.sql     | All the SQL samples presented in the blog                         |
 
 ## Download
-For downloading please use the zip download functionality of GitHub
+For downloading please use the zip download functionality of GitHub.
 
 ## Preconditions
-Please note that at least HANA 2.0 SPS02 is needed additional to an enabled Document Store
+Please note that at least HANA 2.0 SPS02 is needed additional to an enabled Document Store.
