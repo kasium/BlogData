@@ -1,7 +1,5 @@
 /*
 	This file contains all sample queries from the blog and some additional ones.
-	
-	Author: Kai Mueller
 */
 
 -- TABLE: get all customers which bought 'Product 1' and the price they payed
