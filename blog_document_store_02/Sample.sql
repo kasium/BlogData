@@ -13,7 +13,7 @@ WHERE P.Name = 'Product 1';
 
 -- COLLECTION: get all customers which bought 'Product 1' and the price they payed
 WITH productView AS (SELECT "id", "name", "price" FROM WEBSHOP."ProductCollection" WHERE "name" = 'Product 1')
-	SELECT C.Name, O.OrderDate, Amount * TO_DOUBLE("price") AS "PAYED" FROM "Customer" C
+	SELECT C.Name, O.OrderDate, Amount * TO_DOUBLE("price") AS "PAYED" FROM WEBSHOP."Customer" C
 		JOIN WEBSHOP."Order" O On O.CustomerID = C.ID
 		JOIN WEBSHOP."OrderPosition" OP ON OP.OrderID = O.ID
 		JOIN productView P ON P."id" = OP.ProductID;
