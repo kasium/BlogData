@@ -6,7 +6,7 @@ This repostitory contains the python script and an example output dot file for [
 | Filename            | Description                                                       |
 | ------------------- | ----------------------------------------------------------------- |
 | graph_export.py     | SAP HANA CSV catalog export of the sample data for easy importing |
-| example/exmpale.dot | Example output dot file                                           |
+| example/example.dot | Example output dot file                                           |
 
 ## Download
 For downloading please use the zip download functionality of GitHub.
